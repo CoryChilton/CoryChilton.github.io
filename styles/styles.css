@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(108, 171, 221);
+  margin: 0px;
+  font-family: Roboto, Arial;
+}
+
+main {
+  margin: 100px 100px;
+  padding-bottom: 1000px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  background-color: lightgrey;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.about-title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.about-headshot {
+  flex: 1;
+}
+
+.headshot {
+  width: 300px;
+
+}

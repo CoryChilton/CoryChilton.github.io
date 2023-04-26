@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>Cory Chilton</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -14,11 +16,24 @@
     </header>
     <main>
       <nav>
-        <button class="nav-button">About</button>
+        <button class="nav-button" onclick="tester()">About</button>
         <button class="nav-button">Skills</button>
         <button class="nav-button">Projects</button>
         <button class="nav-button">Contact</button>
       </nav>
+
+      <div class="about">
+        <div class="about-text">
+          <div class="about-title">About Me</div>
+          <div class="about-description">Hi i'm cory and i am an aspiring software engineer.</div>
+        </div>
+        <div class="about-headshot">
+          <img src="pictures/headshot.jpg" class="headshot">
+        </div>
+      </div>
+
     </main>
+
+    <script src="scripts/scroll.js"></script>
   </body>
 </html>
