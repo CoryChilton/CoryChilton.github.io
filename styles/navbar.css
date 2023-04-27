@@ -4,7 +4,9 @@ nav {
   justify-content: center;
   align-items: center;
   height: 65px;
-  border-radius: 18px 18px 0px 0px;
+  border-radius: 18px;
+  position: sticky;
+  top: 0px;
 }
 
 .nav-button {
@@ -27,5 +29,5 @@ nav {
 }
 
 .nav-button:active {
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(246, 246, 246);
 }
