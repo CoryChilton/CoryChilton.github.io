@@ -16,20 +16,32 @@
     </header>
     <main>
       <nav>
-        <button class="nav-button" onclick="tester()">About</button>
-        <button class="nav-button">Skills</button>
-        <button class="nav-button">Projects</button>
-        <button class="nav-button">Contact</button>
+        <button class="nav-button js-about-button" onclick="tester()">About</button>
+        <button class="nav-button js-skills-button">Skills</button>
+        <button class="nav-button js-projects-button">Projects</button>
+        <button class="nav-button js-contact-button">Contact</button>
       </nav>
 
-      <div class="about">
+      <div class="about section js-about-section">
         <div class="about-text">
-          <div class="about-title">About Me</div>
+          <div class="about-title section-title">About Me</div>
           <div class="about-description">Hi i'm cory and i am an aspiring software engineer.</div>
         </div>
         <div class="about-headshot">
           <img src="pictures/headshot.jpg" class="headshot">
         </div>
+      </div>
+
+      <div class="skills section js-skills-section">
+        <div class="skills-title section-title">Skills</div>
+      </div>
+
+      <div class="projects section js-projects-section">
+        <div class="projects-title section-title">Projects</div>
+      </div>
+
+      <div class="contact section js-contact-section">
+        <div class="contact-title section-title">Contact</div>
       </div>
 
     </main>
