@@ -7,7 +7,7 @@ body {
 
 main {
   margin: 100px 100px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   background-color: white;
   border-radius: 20px;
 }
@@ -21,7 +21,7 @@ main {
 .section {
   margin: 40px;
   padding: .1px;
-  background-color: lightgrey;
+  /*background-color: rgb(240, 240, 240);*/
 }
 
 .about {
@@ -49,7 +49,7 @@ main {
 
 .headshot {
   width: 300px;
-
+  border-radius: 20px;
 }
 
 .skills {
@@ -61,7 +61,31 @@ main {
 }
 
 .contact {
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.contact-title {
+  margin-bottom: 20px;
+}
 
+.main-button {
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(0, 117, 156);
+  color: white;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: rgb(0, 87, 116);
+}
+
+.main-button:active {
+  background-color: rgb(0, 67, 90);
+}
