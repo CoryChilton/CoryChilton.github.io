@@ -10,6 +10,7 @@ main {
   padding-bottom: .1px;
   background-color: white;
   border-radius: 20px;
+  min-width: 400px;
 }
 
 .section-title {
@@ -50,10 +51,6 @@ main {
 .headshot {
   width: 300px;
   border-radius: 150px;
-}
-
-.skills {
-  height: 500px;
 }
 
 .projects {
