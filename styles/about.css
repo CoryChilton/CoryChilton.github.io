@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1.5;
+  margin-right: 10px;
+  /*background-color: lightblue;*/
+}
+
+.about-title {
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.about-headshot {
+  flex: 1;
+  /*background-color:lightcoral;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  /*width: 300px;*/
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 1000px;
+}

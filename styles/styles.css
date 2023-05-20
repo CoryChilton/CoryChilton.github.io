@@ -22,35 +22,6 @@ main {
 .section {
   margin: 40px;
   padding: .1px;
-  /*background-color: rgb(240, 240, 240);*/
-}
-
-.about {
-  display: flex;
-  flex-direction: row;
-}
-
-.about-text {
-  flex: 1;
-  margin-right: 10px;
-}
-
-.about-title {
-  margin-bottom: 20px;
-}
-
-.about-description {
-  font-weight: 100;
-  font-size: 15px;
-}
-
-.about-headshot {
-  flex: 1;
-}
-
-.headshot {
-  width: 300px;
-  border-radius: 150px;
 }
 
 .projects {
