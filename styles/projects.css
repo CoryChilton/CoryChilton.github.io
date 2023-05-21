@@ -1,0 +1,27 @@
+.projects {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.projects-title {
+  margin-bottom: 10px;
+}
+
+.project-img {
+  height: 150px;
+  margin: 20px 0px;
+}
+
+.project-block {
+  text-align: center;
+}
+
+.project-name {
+  font-size: 25px;
+}
+
+.project-description {
+  margin-bottom: 20px;
+}
+
+
