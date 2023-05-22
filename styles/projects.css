@@ -1,6 +1,7 @@
 .projects {
   font-size: 20px;
   font-weight: 100;
+  text-align: center;
 }
 
 .projects-title {
@@ -26,6 +27,10 @@
 
 .project-description {
   margin-bottom: 20px;
+}
+
+.first-project {
+  margin-top: 0px;
 }
 
 

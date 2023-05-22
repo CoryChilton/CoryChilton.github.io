@@ -4,6 +4,10 @@
   row-gap: 10px;
 }
 
+.about-title-underline {
+  margin: 20px 0px;
+}
+
 .about-text {
   margin-right: 10px;
 }
@@ -15,10 +19,6 @@
   .about-text {
     margin-right: 0px;
   }
-}
-
-.about-title {
-  margin-bottom: 20px;
 }
 
 .about-description {
