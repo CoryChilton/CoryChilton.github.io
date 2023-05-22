@@ -7,7 +7,7 @@ header {
   text-align: center;
   font-size: 60px;
   animation: fadeIn 3s;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -17,7 +17,7 @@ header {
   font-size: 25px;
   margin-top: 20px;
   animation: fadeIn 3s;
-  animation-delay: .8s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
