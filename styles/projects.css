@@ -5,6 +5,7 @@
 
 .projects-title {
   margin-bottom: 10px;
+  
 }
 
 .project-img {
@@ -18,6 +19,7 @@
 }
 
 .project-name {
+  margin-top: 50px;
   font-size: 25px;
   font-weight: 300;
 }
