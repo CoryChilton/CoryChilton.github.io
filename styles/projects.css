@@ -9,7 +9,8 @@
 
 .project-img {
   height: 150px;
-  margin: 20px 0px;
+  margin: 15px 0px;
+  border-radius: 10px;
 }
 
 .project-block {
@@ -18,6 +19,7 @@
 
 .project-name {
   font-size: 25px;
+  font-weight: 300;
 }
 
 .project-description {
