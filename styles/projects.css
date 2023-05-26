@@ -1,7 +1,9 @@
 .projects {
   font-size: 20px;
   font-weight: 100;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects-title {
@@ -27,6 +29,7 @@
 
 .project-description {
   margin-bottom: 20px;
+  max-width: 800px;
 }
 
 .first-project {
