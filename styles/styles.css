@@ -14,7 +14,7 @@ main {
   animation: fadeIn 3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .section-title {
