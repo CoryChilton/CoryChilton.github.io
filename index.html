@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -19,11 +20,26 @@
     </header>
     <main>
       <nav>
+        <button class="nav-button js-contact-button">Information</button>
         <button class="nav-button js-about-button">About</button>
         <button class="nav-button js-skills-button">Skills</button>
         <button class="nav-button js-projects-button">Projects</button>
-        <button class="nav-button js-contact-button">Contact</button>
       </nav>
+
+      <div class="contact section js-contact-section">
+        <div>
+          <div class="contact-title section-title">Information</div>
+          <div class="section-title-underline"></div>
+        </div>
+        <div class="contact-buttons">
+          <a href="https://github.com/CoryChilton/resume/blob/main/resume.pdf" target="_blank" rel="noreferrer noopener"><button class="main-button">Resume</button></a>
+          <a href="mailto: corychilton@g.ucla.edu"><button class="main-button">corychilton@g.ucla.edu</button></a>
+          <a href="https://github.com/CoryChilton" target="_blank" rel="noreferrer noopener"><button class="main-button">GitHub: CoryChilton</button></a>
+          <a href="https://www.linkedin.com/in/corychilton/" target="_blank" rel="noreferrer noopener"><button class="main-button">LinkedIn: CoryChilton</button></a>
+        </div>
+      </div>
+
+      <div class="section-line"></div>
 
       <div class="about section js-about-section">
         <div class="about-text">
@@ -139,16 +155,9 @@
         </div>
       </div>
 
-      <div class="section-line"></div>
+      
 
-      <div class="contact section js-contact-section">
-        <div class="contact-title section-title">Contact</div>
-        <div class="section-title-underline"></div>
-        <a href="https://github.com/CoryChilton/resume/blob/main/resume.pdf" target="_blank" rel="noreferrer noopener"><button class="main-button">Resume</button></a>
-        <a href="mailto: corychilton@g.ucla.edu"><button class="main-button">corychilton@g.ucla.edu</button></a>
-        <a href="https://github.com/CoryChilton" target="_blank" rel="noreferrer noopener"><button class="main-button">GitHub: CoryChilton</button></a>
-        <a href="https://www.linkedin.com/in/corychilton/" target="_blank" rel="noreferrer noopener"><button class="main-button">LinkedIn: CoryChilton</button></a>
-      </div>
+      
     </main>
 
     <script src="scripts/scroll.js"></script>
