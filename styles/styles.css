@@ -10,11 +10,10 @@ main {
   padding-bottom: .1px;
   background-color: white;
   border-radius: 20px;
-  /* min-width: 200px; */
-  animation: fadeIn .3s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+  /* animation: fadeIn 0s; */
+  /* animation-delay: 0s; */
+  /* animation-fill-mode: forwards; */
+  opacity: 1;
 }
 
 @media (max-width: 1000px) {

@@ -16,7 +16,7 @@ nav {
 .stuck {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .nav-button {

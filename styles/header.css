@@ -6,10 +6,10 @@ header {
 .name {
   text-align: center;
   font-size: 60px;
-  animation: fadeIn 0s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+  /* animation: fadeIn 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards; */
+  opacity: 1;
 }
 
 @media (max-width: 500px) {
@@ -26,10 +26,10 @@ header {
   text-align: center;
   font-size: 25px;
   margin-top: 20px;
-  animation: fadeIn 0s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+  /* animation: fadeIn 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards; */
+  opacity: 1;
 }
 
 @keyframes fadeIn {
