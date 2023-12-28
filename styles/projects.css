@@ -36,4 +36,6 @@
   margin-top: 0px;
 }
 
-
+.project-button {
+  width: min(300px, 100%);
+}

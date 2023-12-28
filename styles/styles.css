@@ -10,7 +10,7 @@ main {
   padding-bottom: .1px;
   background-color: white;
   border-radius: 20px;
-  min-width: 400px;
+  /* min-width: 200px; */
   animation: fadeIn .3s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
@@ -24,12 +24,7 @@ main {
   }
 }
 
-@media (max-width: 600px) {
-  main {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
+
 
 .section-title {
   margin-top: 20px;
@@ -51,6 +46,16 @@ main {
   padding: .1px;
 }
 
+@media (max-width: 500px) {
+  main {
+    margin: 50px 10px;
+  }
+
+  .section {
+    margin: 10px;
+  }
+}
+
 .section-line {
   background-color: rgb(228, 228, 228);
   height: 1px;
@@ -58,8 +63,7 @@ main {
 
 .main-button {
   padding: 10px 0px;
-  margin-bottom: 15px;
-  width: 300px;
+  min-width: 240px;
   border: none;
   border-radius: 100px;
   background-color: rgb(0, 117, 156);
@@ -67,6 +71,7 @@ main {
   transition: .2s;
   cursor: pointer;
   font-size: 15px;
+  width: 100%;
 }
 
 .main-button:hover {
