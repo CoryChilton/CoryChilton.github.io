@@ -27,3 +27,17 @@ const contactSection = document.querySelector('.js-contact-section');
 contactButton.addEventListener('click', () => {
   window.scrollTo({top: contactSection.getBoundingClientRect().top + window.pageYOffset + yOffset, behavior: 'smooth'});
 });
+
+const mainSection = document.querySelector('main');
+const nav = document.querySelector('nav');
+
+function handleScroll() {
+  const rect = mainSection.getBoundingClientRect();
+  if (rect.top < 0) {
+    nav.classList.add('stuck');
+  } else {
+    nav.classList.remove('stuck');
+  }
+}
+
+window.addEventListener('scroll', handleScroll);

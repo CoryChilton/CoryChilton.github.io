@@ -8,6 +8,15 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 100;
+  transition: 
+    border-radius 0.5s, 
+    transform 0.5s;
+}
+
+.stuck {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  transform: translateY(-10px);
 }
 
 .nav-button {
