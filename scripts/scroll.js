@@ -41,3 +41,18 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
+
+function setContactButtonName() {
+  if (window.innerWidth <= 500) {
+    contactButton.textContent = 'Info';
+  } else {
+    contactButton.textContent = 'Information';
+  }
+}
+
+setContactButtonName();
+
+window.addEventListener('resize', setContactButtonName);
+
+
+
