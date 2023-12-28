@@ -14,10 +14,11 @@
 
 @media (max-width: 900px) {
   .about {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .about-text {
     margin-right: 0px;
+    margin-bottom: 10px;
   }
 }
 

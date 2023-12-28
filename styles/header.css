@@ -6,8 +6,8 @@ header {
 .name {
   text-align: center;
   font-size: 60px;
-  animation: fadeIn 3s;
-  animation-delay: 1s;
+  animation: fadeIn 0s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -16,8 +16,8 @@ header {
   text-align: center;
   font-size: 25px;
   margin-top: 20px;
-  animation: fadeIn 3s;
-  animation-delay: 1.5s;
+  animation: fadeIn 0s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   opacity: 0;
 }

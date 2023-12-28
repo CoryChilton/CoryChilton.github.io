@@ -11,10 +11,24 @@ main {
   background-color: white;
   border-radius: 20px;
   min-width: 400px;
-  animation: fadeIn 3s;
-  animation-delay: 2s;
+  animation: fadeIn .3s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   opacity: 0;
+}
+
+@media (max-width: 1000px) {
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .section-title {
